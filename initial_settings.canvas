@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"9b6dcb3d81b9b9fa","type":"text","text":"At \"Settings->General\" define:\n*Site Title*\n*Tagline*\n*Timezone*\n*Date Format*\n*Time Format*","x":-880,"y":-380,"width":280,"height":179},
+		{"id":"0795b900a1ef164b","type":"text","text":"At \"Settings->Reading\" select \"Search engine visibility\" to discourage search engines from indexing the site while you're developing it.","x":-880,"y":-140,"width":280,"height":160},
+		{"id":"e948f68e218b0476","x":-880,"y":80,"width":280,"height":160,"type":"text","text":"At \"Settinggs->Permalinks\" change the \"Permalinks structure\" to \"Post name\" as it's better for SEO\n#SEO"},
+		{"id":"9b4ed8958b207fca","x":-540,"y":130,"width":250,"height":60,"type":"text","text":"Do this ASAP so you don't need many redirects later."},
+		{"id":"04f225a80ba7f8bb","x":-880,"y":300,"width":280,"height":60,"type":"text","text":"Pick your favorite  theme at \"Appearance->Themes\"."}
+	],
+	"edges":[
+		{"id":"82ebc8787801610e","fromNode":"9b6dcb3d81b9b9fa","fromSide":"bottom","toNode":"0795b900a1ef164b","toSide":"top"},
+		{"id":"52294fd08bb84b6f","fromNode":"0795b900a1ef164b","fromSide":"bottom","toNode":"e948f68e218b0476","toSide":"top"},
+		{"id":"7b1cfe536763e9b3","fromNode":"e948f68e218b0476","fromSide":"right","toNode":"9b4ed8958b207fca","toSide":"left"},
+		{"id":"844594112b87b5cb","fromNode":"e948f68e218b0476","fromSide":"bottom","toNode":"04f225a80ba7f8bb","toSide":"top"}
+	]
+}

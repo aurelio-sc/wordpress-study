@@ -4,11 +4,11 @@
 		{"id":"352277eabcb59174","type":"text","text":"Upload files to the server.","x":-883,"y":-240,"width":250,"height":60},
 		{"id":"f2fff8dd291f46d7","type":"text","text":"Access your site's cPanel and create a database.","x":-883,"y":-120,"width":250,"height":60},
 		{"id":"18adcf28e3318129","type":"text","text":"You'll need that user's name and password.","x":-240,"y":-120,"width":250,"height":60},
-		{"id":"9f8ccd8d067fe99d","x":-883,"y":0,"width":250,"height":160,"type":"text","text":"Access your domain and fill up all the information.  \"localhost\" is the default database server, leave it as it is."},
+		{"id":"9f8ccd8d067fe99d","type":"text","text":"Access your domain and fill up all the information.  \"localhost\" is the default database server, leave it as it is.","x":-883,"y":0,"width":250,"height":160},
 		{"id":"47e4b1dbbdb883ba","type":"text","text":"Add a user with all privileges to that database Minimum required privileges: alter, create, delete, select, drop, insert and update.","x":-560,"y":-187,"width":250,"height":195},
-		{"id":"e461fb1168a1c778","x":-883,"y":220,"width":250,"height":120,"type":"text","text":"Set up your site's information. Remember the username and password you picked up."},
-		{"id":"229373feb0b3a6fe","x":-883,"y":400,"width":250,"height":60,"type":"text","text":"Access your domain. Your site should be visible."},
-		{"id":"dd48a73ce5b03235","x":-883,"y":519,"width":250,"height":161,"type":"text","text":"Access the /wp-admin route and fill up your login information to access the site's control panel."}
+		{"id":"e461fb1168a1c778","type":"text","text":"Set up your site's information. Remember the username and password you picked up.","x":-883,"y":220,"width":250,"height":120},
+		{"id":"229373feb0b3a6fe","type":"text","text":"Access your domain. Your site should be visible.","x":-883,"y":400,"width":250,"height":60},
+		{"id":"dd48a73ce5b03235","type":"text","text":"Access the /wp-admin route and fill up your login information to access the site's control panel.","x":-883,"y":519,"width":250,"height":161}
 	],
 	"edges":[
 		{"id":"443d567546669b72","fromNode":"2fb690216f8a2626","fromSide":"bottom","toNode":"352277eabcb59174","toSide":"top"},
